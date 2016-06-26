@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">足球资讯</string>
+
+    <!--NavigationView-->
+    <string name="rank">积分榜</string>
+    <string name="scorer">射手榜</string>
+    <string name="assists">助攻榜</string>
+    <string name="theme">主题风格</string>
+    <string name="about">关于</string>
+
+    <!--Tab名称-->
+    <string-array name="tab_title">
+        <item>头条</item>
+        <item>集锦</item>
+        <item>视频</item>
+        <item>转会</item>
+        <item>专题</item>
+        <item>深度</item>
+        <item>中超</item>
+        <item>英超</item>
+        <item>西甲</item>
+        <item>德甲</item>
+        <item>意甲</item>
+        <item>五洲</item>
+    </string-array>
+
+    <!--积分榜、射手榜、助攻榜Tab名称-->
+    <string-array name="tab_league_title">
+        <item>中超</item>
+        <item>英超</item>
+        <item>西甲</item>
+        <item>德甲</item>
+        <item>意甲</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

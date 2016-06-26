@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#009688</color>
+
+    <!--Tab未选中标签文字颜色-->
+    <color name="tabUnSelected">#FFE0E0E0</color>
+
+    <!--条目描述文字颜色-->
+    <color name="gray">#55000000</color>
+
+    <!--listview分隔线的颜色-->
+    <color name="listDivider">#D8D8D8</color>
+
+    <!--常规色-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

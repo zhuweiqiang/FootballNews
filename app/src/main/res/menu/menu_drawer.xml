@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--注意事项：
+        1.将不同的Item分组来制作分割线
+        2.默认每个Item图标的颜色均为灰色，
+        -->
+    <group
+        android:id="@+id/other"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rank"
+            android:icon="@mipmap/football_rank"
+            android:title="@string/rank"
+            />
+        <item
+            android:id="@+id/nav_scorer"
+            android:icon="@mipmap/football_scorer"
+            android:title="@string/scorer"/>
+        <item
+            android:id="@+id/nav_assists"
+            android:icon="@mipmap/football_assists"
+            android:title="@string/assists"/>
+    </group>
+
+    <group
+        android:id="@+id/setting"
+        android:checkableBehavior="single">
+       <!-- <item
+            android:id="@+id/nav_theme"
+            android:icon="@mipmap/ic_palette_black_36dp"
+            android:title="@string/theme"/>-->
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/ic_info_black_36dp"
+            android:title="@string/about"/>
+    </group>
+</menu>

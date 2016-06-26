@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="me.coderblog.footballnews">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:name=".FootballNewsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/BaseTheme">
+
+        <meta-data android:name="TD_APP_ID" android:value="E1FC04E9E8E73C2D0F8AAA9FD45B2152" />
+        <meta-data android:name="TD_CHANNEL_ID" android:value="cool" />
+
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.WebViewActivity"/>
+        <activity android:name=".activity.SubjectDetailActivity"/>
+        <activity android:name=".activity.RankActivity">
+        </activity>
+        <activity android:name=".activity.ScorerActivity">
+        </activity>
+        <activity android:name=".activity.AssistActivity">
+        </activity>
+    </application>
+
+</manifest>

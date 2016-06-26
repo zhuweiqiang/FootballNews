@@ -5,7 +5,7 @@
 
 ## 截图
 ![](https://github.com/Structure88/FootballNews/blob/master/footballnews_01.png)
-<br>
+
 ![](https://github.com/Structure88/FootballNews/blob/master/footballnews_02_.png)
 
 ![](https://github.com/Structure88/FootballNews/blob/master/footballnews_03_.png)

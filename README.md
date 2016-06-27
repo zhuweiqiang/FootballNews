@@ -14,5 +14,5 @@
 
 ![](https://github.com/Structure88/FootballNews/blob/master/footballnews_05_.png)
 ## 下载地址
-[点击下载](http://pan.baidu.com/s/1nv3v59J)
+[点击下载](http://pan.baidu.com/s/1eR2DBAa)
 
